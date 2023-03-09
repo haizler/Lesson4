@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.header{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.seсtion{
+    height: 40%;
+    padding-top: 60px;
+}
+
+.header-logo{
+    margin-top: 15px;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    width: 110px;
+    height: 40px;
+    font-family: monospace;
+    text-align: center;
+    box-shadow: 0 0 3px 0 ;
+    border-radius: 4px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+#witcher{
+    width: 220px;
+    height: 320px;
+    border: 2px ;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 black;
+    margin-top: 20px;
+}
+
+#god{
+    width: 220px;
+    height: 320px;
+    border: 2px ;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 black;
+    margin-top: 20px;
+}
+
+#stray{
+    width: 220px;
+    height: 320px;
+    justify-content: flex-end;
+    border: 2px  ;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 black;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+}
+
+#about{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: monospace;
+}
